@@ -19,6 +19,9 @@ body {
     .botones {
         position: relative;
         bottom: 120px;
+        .ico {
+            z-index: 1;
+        }
     }
    .slidetop{
         transition:10s;

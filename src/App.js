@@ -7,6 +7,7 @@ import panel from "./Assets/panel-vacio.png"
 import btn from "./Assets/fondo.png"
 import React, { useState, useRef, useEffect } from 'react';
 import axios from 'axios';
+import { BiHome, BiImage } from "react-icons/bi";
 
 function App() {
   let [home, setHome] = useState(0);
@@ -66,21 +67,45 @@ function App() {
             <div className="botones">
               { home === 1 ?
                 <div>
-                  <button className="botonimagen"  onClick={() => reset()}><img src={btn} alt="boton"></img></button>
-                  <button className="botonimagen" onClick={() => fetchImg()}><img src={btn} alt="boton"></img></button>
+                  <button className="botonimagen"  onClick={() => reset()}>
+                    <div >
+                      <img src={btn} alt="boton">
+                      </img>
+                      <BiHome className="ico" />
+                    </div>
+                  </button>
+                  <button className="botonimagen" onClick={() => fetchImg()}>
+                    <img src={btn} alt="boton">
+                    </img>
+                    <BiImage className="ico" />
+                  </button>
                 </div>
                 : home === 2 ?
                 <div>
-                  <button className="botonimagen" onClick={() => reset()}><img src={btn} alt="boton"></img></button>
-                  <button className="botonimagen" onClick={() => fetchImg()}><img src={btn} alt="boton"></img></button>
-                  <button className="botonimagen" onClick={() => fetchImg()}><img src={btn} alt="boton"></img></button>
+                  <button className="botonimagen" onClick={() => reset()}><img src={btn} alt="boton"></img>
+                  <BiHome className="ico" />
+                  </button>
+                  <button className="botonimagen" onClick={() => fetchImg()}><img src={btn} alt="boton"></img>
+                  <BiImage className="ico" />
+                  </button>
+                  <button className="botonimagen" onClick={() => fetchImg()}><img src={btn} alt="boton"></img>
+                  <BiImage className="ico" />
+                  </button>
                 </div>
                 : home === 3 ?
                 <div>
-                  <button className="botonimagen" onClick={() => reset()}><img src={btn} alt="boton"></img></button>
-                  <button className="botonimagen" onClick={() => fetchImg()}><img src={btn} alt="boton"></img></button>
-                  <button className="botonimagen" onClick={() => fetchImg()}><img src={btn} alt="boton"></img></button>
-                  <button className="botonimagen" onClick={() => fetchImg()}><img src={btn} alt="boton"></img></button>
+                  <button className="botonimagen" onClick={() => reset()}><img src={btn} alt="boton"></img>
+                  <BiHome className="ico" />
+                  </button>
+                  <button className="botonimagen" onClick={() => fetchImg()}><img src={btn} alt="boton"></img>
+                  <BiImage className="ico" />
+                  </button>
+                  <button className="botonimagen" onClick={() => fetchImg()}><img src={btn} alt="boton"></img>
+                  <BiImage className="ico" />
+                  </button>
+                  <button className="botonimagen" onClick={() => fetchImg()}><img src={btn} alt="boton"></img>
+                  <BiImage className="ico" />
+                  </button>
                 </div>
                 :
                 <div>
