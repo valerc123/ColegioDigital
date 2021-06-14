@@ -6,6 +6,7 @@ body {
     background: transparent;
     border: none;
     img {
+        margin: -8px;
         height: 50%;
     }
 }
@@ -20,7 +21,8 @@ body {
         position: relative;
         bottom: 120px;
         .ico {
-            z-index: 1;
+            position: relative;
+            left: -40px;
         }
     }
    .slidetop{
