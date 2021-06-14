@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/ColegioDigital/static/css/main.47631bb7.chunk.css",
+    "main.js": "/ColegioDigital/static/js/main.dd7eec1e.chunk.js",
+    "main.js.map": "/ColegioDigital/static/js/main.dd7eec1e.chunk.js.map",
+    "runtime-main.js": "/ColegioDigital/static/js/runtime-main.388a116d.js",
+    "runtime-main.js.map": "/ColegioDigital/static/js/runtime-main.388a116d.js.map",
+    "static/css/2.4c97ca4f.chunk.css": "/ColegioDigital/static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.41e00246.chunk.js": "/ColegioDigital/static/js/2.41e00246.chunk.js",
+    "static/js/2.41e00246.chunk.js.map": "/ColegioDigital/static/js/2.41e00246.chunk.js.map",
+    "static/js/3.e1d887ac.chunk.js": "/ColegioDigital/static/js/3.e1d887ac.chunk.js",
+    "static/js/3.e1d887ac.chunk.js.map": "/ColegioDigital/static/js/3.e1d887ac.chunk.js.map",
+    "index.html": "/ColegioDigital/index.html",
+    "static/css/2.4c97ca4f.chunk.css.map": "/ColegioDigital/static/css/2.4c97ca4f.chunk.css.map",
+    "static/css/main.47631bb7.chunk.css.map": "/ColegioDigital/static/css/main.47631bb7.chunk.css.map",
+    "static/js/2.41e00246.chunk.js.LICENSE.txt": "/ColegioDigital/static/js/2.41e00246.chunk.js.LICENSE.txt",
+    "static/media/1.014099ce.png": "/ColegioDigital/static/media/1.014099ce.png",
+    "static/media/11.705465dd.png": "/ColegioDigital/static/media/11.705465dd.png",
+    "static/media/4.726ce2fa.png": "/ColegioDigital/static/media/4.726ce2fa.png",
+    "static/media/app.scss": "/ColegioDigital/static/media/fondo.9ecb54e3.jpg",
+    "static/media/panel-vacio.74dd704c.png": "/ColegioDigital/static/media/panel-vacio.74dd704c.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.388a116d.js",
+    "static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.41e00246.chunk.js",
+    "static/css/main.47631bb7.chunk.css",
+    "static/js/main.dd7eec1e.chunk.js"
+  ]
+}
